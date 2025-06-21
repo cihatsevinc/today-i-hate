@@ -13,12 +13,12 @@ interface AudioTrack {
 const audioTracks: AudioTrack[] = [
   {
     id: "track1",
-    title: "Şarkı 1",
+    title: "Değişmem",
     src: "/audio/song1.mp3",
   },
   {
     id: "track2",
-    title: "Şarkı 2",
+    title: "Kendime Getir",
     src: "/audio/song2.mp3",
   },
 ]
