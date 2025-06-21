@@ -4,6 +4,7 @@ import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
+import { AudioPlayer } from "@/components/audio-player"
 
 interface Entry {
   text: string
@@ -99,6 +100,9 @@ export default function TodayIHate() {
 
   return (
     <div className="min-h-screen custom-background relative flex flex-col">
+      {/* Audio Player - Fixed position on the right */}
+      <AudioPlayer />
+
       <div className="flex-1">
         <div className="container mx-auto px-4 py-8">
           {/* Header */}
